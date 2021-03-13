@@ -1,0 +1,72 @@
+:root {
+ 
+    --primery-text-color: #757575;
+    --titel-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #fff;
+    --background-color: #2F303A;
+
+}
+
+ 
+ ul{
+list-style: none;
+ }
+
+ .body{
+     font-family: Roboto, sans-serif;
+ }
+ .header{
+     background-color: #ffffff;
+ }
+
+ .header-logo{
+    color: var(--accent-color);
+    font-family: raleway , sans-serif;
+    font-weight: 700;
+    
+ }
+ .header-link{
+font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em
+ }
+
+.header-nav-list a {
+    color: var(--titel-text-color);
+}
+
+.header-link:hover,
+.header-link:focus
+{
+  color: var(--accent-color);
+}
+
+.contacts a {
+    color:var(--primery-text-color) ;
+    
+}
+.contacts-list:hover,
+.contacts-list:focus {
+    color:var(--accent-color);
+
+}
+
+
+.footer{
+    background-color: var( --background-color);
+
+}
+.footer-logo{
+   color: var(--accent-color);
+   font-family: raleway , sans-serif;
+   font-weight: 700;
+}
+.footer-address{
+   color: var(--primary-white-color);
+}
+.footer-contacts{
+   color: rgb(255, 255, 255, 0.6);
+}

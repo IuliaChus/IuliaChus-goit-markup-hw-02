@@ -9,6 +9,7 @@
 }
 
  
+
  ul{
 list-style: none;
  }
@@ -27,6 +28,7 @@ list-style: none;
     
  }
  .header-link{
+     color: var(--titel-text-color);
 font-family: Roboto;
 font-weight: 500;
 font-size: 14px;
@@ -34,14 +36,15 @@ line-height: 16px;
 letter-spacing: 0.02em
  }
 
-.header-nav-list a {
-    color: var(--titel-text-color);
-}
+
 
 .header-link:hover,
 .header-link:focus
 {
   color: var(--accent-color);
+}
+.header-link-blue{
+    color: var(--accent-color);
 }
 
 .contacts a {
@@ -110,11 +113,30 @@ color: var(--primery-text-color);
 }
 .footer-logo{
     color: var(--accent-color);
-    font-family: raleway , sans-serif;
-    font-weight: 700;
+    width: 145px;
+height: 31px;
+left: 215px;
+top: 2157px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+
 }
 .footer-address{
-    color: var(--primary-white-color);
+color: var(--primary-white-color);
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2208px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px
 }
 .footer-contacts{
     color: rgb(255, 255, 255, 0.6);

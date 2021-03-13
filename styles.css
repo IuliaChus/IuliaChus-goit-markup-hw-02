@@ -1,0 +1,104 @@
+:root {
+ 
+    --primery-text-color: #757575;
+    --titel-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #fff;
+    --background-color: #2F303A;
+
+}
+
+ 
+
+ ul{
+list-style: none;
+ }
+
+ .logo{
+    color: var(--accent-color);
+    
+ }
+
+.site-nav-list a {
+    color: var(--titel-text-color);
+}
+
+.link-current:hover,
+.link-current:focus
+{
+  color: var(--accent-color);
+}
+
+.contacts a {
+    color:var(--primery-text-color) ;
+    
+}
+.contacts-list:hover,
+.contacts-list:focus {
+    color:var(--accent-color);
+
+}
+
+
+
+
+
+ .hero{
+background-color: var( --background-color);
+ }
+.hero-titel{
+    color:  var(--primary-white-color);
+}
+.hero-button{
+background-color: var(--accent-color);
+color: var(--primary-white-color);
+ }
+
+
+.section{
+
+}
+ .section-titel{
+     color: var(--titel-text-color);
+ }
+ .section-text{
+     color: var(--primery-text-color);
+ }
+
+
+.about-us-section{
+
+}
+ .about-us-titel{
+     color: var(--titel-text-color);
+ }
+
+
+
+.our-team-section{
+
+}
+ .our-team-titel{
+color: var(--titel-text-color);
+ }
+ .our-team-name{
+color: var(--titel-text-color)
+ }
+ .our-team-text{
+color: var(--primery-text-color);
+ }
+
+
+ .footer{
+     background-color: var( --background-color);
+
+}
+.footer-logo{
+    color: var(--accent-color);
+}
+.footer-address{
+    color: var(--primary-white-color);
+}
+.footer-contacts{
+    color: rgb(255, 255, 255, 0.6);
+}

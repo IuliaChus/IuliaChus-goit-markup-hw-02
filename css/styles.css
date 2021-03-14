@@ -28,12 +28,11 @@ list-style: none;
     
  }
  .header-link{
-     color: var(--titel-text-color);
+color: var(--titel-text-color);
 font-family: Roboto;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em
+line-height: 1.14;
  }
 
 
@@ -61,6 +60,8 @@ letter-spacing: 0.02em
 
  .hero{
 background-color: var( --background-color);
+text-align: center;
+
  }
 .hero-titel{
     color:  var(--primary-white-color);
@@ -73,21 +74,41 @@ color: var(--primary-white-color);
 
 
 .section{
-background-color: #ffffff;
+background-color: #ffffff
 }
  .section-titel{
-     color: var(--titel-text-color);
+color: var(--titel-text-color);
+font-family: Roboto;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
  }
  .section-text{
-     color: var(--primery-text-color);
+color: var(--primery-text-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
  }
 
 
 .about-us-section{
+   
 
 }
  .about-us-titel{
      color: var(--titel-text-color);
+     twidth: 376px;
+     height: 42px;
+     left: 612px;
+     top: 969px;
+     font-family: Roboto;
+     font-weight: 700px;
+     font-size: 36px;
+     line-height: 1.2;
+     text-align: center;
+     letter-spacing: 0.03em
  }
 
 
@@ -97,13 +118,32 @@ background-color: #ffffff;
 
 }
  .our-team-titel{
-color: var(--titel-text-color);
+    color: var(--titel-text-color);
+    font-family: Roboto;
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
  }
+
  .our-team-name{
-color: var(--titel-text-color)
+
+    color: var(--titel-text-color)
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
  }
+
+
  .our-team-text{
-color: var(--primery-text-color);
+
+    color: var(--primery-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
  }
 
 
@@ -119,24 +159,23 @@ left: 215px;
 top: 2157px;
 
 font-family: Raleway;
-font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2;
 
 }
+
 .footer-address{
 color: var(--primary-white-color);
 width: 231px;
 height: 21px;
 left: 215px;
 top: 2208px;
-
 font-family: Roboto;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
-line-height: 24px
+line-height: 1.7
 }
 .footer-contacts{
     color: rgb(255, 255, 255, 0.6);

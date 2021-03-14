@@ -15,6 +15,7 @@ list-style: none;
 
  .body{
      font-family: Roboto, sans-serif;
+     background-color: #FFFFFF
  }
  .header{
      background-color: #ffffff;
@@ -27,13 +28,12 @@ list-style: none;
     
  }
  .header-link{
-     color: var(--titel-text-color);
-font-family: Roboto;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em
-
+    color: var(--titel-text-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+   
  }
 
  .header-link-blue{
@@ -71,7 +71,7 @@ letter-spacing: 0.02em
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 
@@ -81,7 +81,7 @@ color: #212121;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.9;
 letter-spacing: 0.03em;
 color: #757575;
 
@@ -99,25 +99,24 @@ left: 215px;
 top: 2157px;
 
 font-family: Raleway;
-font-style: normal;
-font-weight: bold;
+font-style: 400;
+font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2;
 
 }
 .footer-address{
-   color: var(--primary-white-color);
-   width: 231px;
-height: 21px;
-left: 215px;
-top: 2208px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px
-}
-.footer-contacts{
-   color: rgb(255, 255, 255, 0.6);
-}
+    color: var(--primary-white-color);
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2208px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7
+    }
+    .footer-contacts{
+        color: rgb(255, 255, 255, 0.6);
+    }

@@ -28,12 +28,12 @@ list-style: none;
     
  }
  .header-link{
-color: var(--titel-text-color);
-font-family: Roboto;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
- }
+    color: var(--titel-text-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
 
 
 
@@ -59,37 +59,41 @@ line-height: 1.14;
 
 
  .hero{
-background-color: var( --background-color);
-text-align: center;
-
+    background-color: var( --background-color);
+    text-align: center;
  }
+
+
 .hero-titel{
     color:  var(--primary-white-color);
 }
+
 .hero-button{
-background-color: var(--accent-color);
-color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
  }
  
 
 
 .section{
-background-color: #ffffff
+    background-color: #ffffff
 }
  .section-titel{
-color: var(--titel-text-color);
-font-family: Roboto;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
+    color: var(--titel-text-color);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-align: center;
  }
+
  .section-text{
-color: var(--primery-text-color);
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
  }
 
 
@@ -148,35 +152,35 @@ letter-spacing: 0.03em;
 
 
  .footer{
-     background-color: var( --background-color);
+background-color: var( --background-color);
 
 }
 .footer-logo{
     color: var(--accent-color);
     width: 145px;
-height: 31px;
-left: 215px;
-top: 2157px;
-
-font-family: Raleway;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.2;
+    height: 31px;
+    left: 215px;
+    top: 2157px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 
 }
 
 .footer-address{
-color: var(--primary-white-color);
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2208px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.7
+    color: var(--primary-white-color);
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2208px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7
 }
+
 .footer-contacts{
     color: rgb(255, 255, 255, 0.6);
 }

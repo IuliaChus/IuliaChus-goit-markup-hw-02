@@ -12,6 +12,9 @@
  ul{
 list-style: none;
  }
+ a{
+    text-decoration: none;
+}
 
  .body{
      font-family: Roboto, sans-serif;
@@ -66,26 +69,7 @@ list-style: none;
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
-.text{
-    font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
 
-}
-.paragraph{
-    font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.9;
-letter-spacing: 0.03em;
-color: #757575;
-
-}
 
 .footer{
     background-color: var( --background-color);

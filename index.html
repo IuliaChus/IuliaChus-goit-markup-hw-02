@@ -13,22 +13,21 @@
 <body class="body">
         <!--Шапка -->
         <header class="header">
-    
-            
-            <img class="header-logo" src="./img/logo.png" alt="лого">
+
+            <p class="header-logo"> Web<span class="logo-part-two">Studio</span> </p>
      
-            <ul>
-                <li><a href="" class="header-link-blue">Студия</a> </li>
-                <li><a href="/portfolio.html" class="header-link">Портфолио</a> </li>
-                <li><a href="" class="header-link">Контакты</a> </li>
+            <ul class="navigation">
+                <li><a href="" class="link-studio">Студия</a> </li>
+                <li><a href="/portfolio.html" class="link-portfolio">Портфолио</a> </li>
+                <li><a href="" class="link-contact">Контакты</a> </li>
             </ul>
      
-           <ul class="contacts">
+           <ul >
                  <li>
-                     <a class="contacts-list" href=" mailto:info@devstudio.com">info@devstudio.com</a> 
+                     <a class="contacts-mail" href=" mailto:info@devstudio.com">info@devstudio.com</a> 
                  </li>
                  <li>
-                     <a class="contacts-list" href="tel:+380961111111">+38 096 111 11 11</a> 
+                     <a class="contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a> 
                  </li>
                       
            </ul>
@@ -40,28 +39,30 @@
     
         <section class="hero">
             <h1 class="hero-titel">Эффективные решения для вашего бизнеса</h1>
-            <button class="hero-button" >Заказать услугу</button> 
+            <button class="hero-button" >
+              <a href=""> <span class="button-text">Заказать услугу</span> </a>
+            </button> 
         </section>
 
     <!--Секция--> 
     
         <section>
-    <ul class="section">
-        <li>
-            <h3 class="section-title"> Внимание к деталям</h3>
-            <p class="section-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+    <ul class="text">
+        <li class="text-one" >
+            <h3 class="attention-to-detail"> Внимание к деталям</h3>
+            <p class="attention-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
         </li>
-        <li>
-            <h3 class="section-title"> Пунктуальность</h3>
-            <p class="section-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+        <li class="text-two">
+            <h3 class="punctuality"> Пунктуальность</h3>
+            <p class="punctuality-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
         </li>
-        <li>
-            <h3 class="section-title"> Планирование</h3>
-            <p class="section-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+        <li class="text-three" >
+            <h3 class="planning"> Планирование</h3>
+            <p class="planning-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
-        <li>
-            <h3 class="section-title"> Современные технологии</h3>
-            <p class="section-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+        <li class="text-four" >
+            <h3 class="modern-technology"> Современные технологии</h3>
+            <p class="modern-technology-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
     </ul>
 
@@ -72,9 +73,9 @@
         <section class="aubout-us-section">
             <h2 class="about-us-titel"> Чем мы занимаемся</h2>
             <ul>
-            <li><img src="img/boxkopie.jpg" alt="айпед"  width="370"></li> 
-            <li><img src="img/imgKopie.jpg" alt= "ноутбук" width="370"></li>
-            <li><img src="img/imgkopie1.jpg" alt="робочій стіл" width="370"></li> 
+            <li><img src="img/boxkopie.jpg" alt="айпед"  width="370" class="picture-one" ></li> 
+            <li><img src="img/imgKopie.jpg" alt= "ноутбук" width="370" class="picture-two" ></li>
+            <li><img src="img/imgkopie1.jpg" alt="робочій стіл" width="370" class="picture-three" ></li> 
         </ul>
         </section>
     
@@ -83,27 +84,43 @@
         <section class="our-team-section">
             <h2 class="our-team-titel">Наша команда</h2>
 
-            <ul>
-            <li> <img src="img/prt1.jpg" alt="чоловік на фото" width="270" ><h3 class="our-team-name">Игорь Демьяненко</h3><p class="our-team-text"> Product Designer</p></li>
-            <li><img src="img/prt2.jpg" alt="жінка на фото" width="270" ><h3 class="our-team-name">Ольга Репина </h3><p class="our-team-text">Frontend Developer</p></li>
-            <li><img src="img/prt3.jpg" alt="чоловік на фото в білі сорочці" width="270" ><h3 class="our-team-name">Николай Тарасов</h3><p class="our-team-text">Marketing</p></li>
-            <li><img src="img/prt4.jpg" alt="чоловік на фото в темній футболці" width="270" ><h3 class="our-team-name">Михаил Ермаков</h3><p class="our-team-text"> UI Designer</p></li>
+            <ul class="cards" >
+            <li class="portrait-one" > 
+                <img src="img/prt1.jpg" alt="чоловік на фото" width="270" class="imagine-one" >
+                <h3 class="our-team-name-one">Игорь Демьяненко</h3>
+                <p class="our-team-text-one"> Product Designer</p>
+            </li>
+            <li class="portrait-two" >
+                <img src="img/prt2.jpg" alt="жінка на фото" width="270" class="imagine-two" >
+                <h3 class="our-team-name-two">Ольга Репина </h3>
+                <p class="our-team-text-two">Frontend Developer</p>
+            </li>
+            <li class="portrait-three" >
+                <img src="img/prt3.jpg" alt="чоловік на фото в білі сорочці" width="270" class="imagine-three" >
+                <h3 class="our-team-name-three">Николай Тарасов</h3>
+                <p class="our-team-text-three">Marketing</p>
+            </li>
+            <li class="portrait-four" >
+                <img src="img/prt4.jpg" alt="чоловік на фото в темній футболці" width="270" class="imagine-four" >
+                <h3 class="our-team-name-four">Михаил Ермаков</h3>
+                <p class="our-team-text-four"> UI Designer</p>
+            </li>
             </ul>
         </section>  
     
 </main>
     <!-- Подвал -->
     <footer class="footer">
-         <p class="footer-logo" >WebStudio</p>
+         <p class="footer-logo">Web<span class="footer-logo-studio" >Studio</span> </p>
          
-
-        <address class="footer-address"> г. Киев, пр-т Леси Украинки, 26 </address>
+   
+        <address class="adress" > г. Киев, пр-т Леси Украинки, 26 </address>
     
-            <ul>
+         <ul class="footer-address">
                 <li>
-                    <a class="footer-contacts" href="mailto:info@example.com">info@example.com</a></li>
+                    <a class="footer-email" href="mailto:info@example.com">info@example.com</a></li>
                 <li>   
-                    <a class="footer-contacts"  href="tel:+380991111111">+38 099 111 11 11</a></li>
+                    <a class="footer-tel"  href="tel:+380991111111">+38 099 111 11 11</a></li>
                 
             </ul>
     

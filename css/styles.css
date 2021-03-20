@@ -367,7 +367,7 @@ top: 800px;
  .about-us-titel{
      color: var(--titel-text-color);
     font-family: Roboto;
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -421,11 +421,10 @@ top: 1061px;
     letter-spacing: 0.03em;
  }
  .cards{
-   
-    width: 1170px;
-    height: 368px;
-    left: 215px;
-    top: 1635px;
+width: 1170px;
+height: 368px;
+left: 215px;
+top: 1635px;
  }
 
 .portrait-one{ 
@@ -606,7 +605,7 @@ top: 1061px;
  }
 
 
- .footer{
+ .footer-bg{
 background-color: var( --background-color);
 position: absolute;
 width: 1600px;
@@ -616,7 +615,6 @@ top: 2097px;
 
 }
 .footer-logo{
-    color: var(--accent-color);
     color: var(--accent-color);
     position: absolute;
     width: 145px;
@@ -639,59 +637,49 @@ top: 2097px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-
-
 .adress{
-color: var(--primary-white-color);
-position: absolute;
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2208px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-}
-
-.footer-address{
-    
     width: 231px;
     height: 81px;
     left: 215px;
     top: 2208px;
 }
+.street{
+    color: var(--primary-white-color);
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2208px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
 .footer-email{
-  
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2238px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2238px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel{
+    color: rgba(255, 255, 255, 0.6);
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2268px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2268px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
 }
